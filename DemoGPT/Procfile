@@ -1,2 +1,2 @@
-web: gunicorn recime.wsgi
+web: gunicorn DemoGPT.wsgi
 heroku addons:create heroku-postgresql:hobby-dev
